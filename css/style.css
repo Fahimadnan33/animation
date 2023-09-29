@@ -1,0 +1,62 @@
+
+
+.box1{
+  
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    -webkit-animation-name: test;
+    -webkit-animation-duration: 4s;
+    animation-name: test;
+    animation-duration: 4s;
+    
+   
+
+}
+@-webkit-keyframes test{
+   from{ background-color:red;}
+   to{ background-color:yellowgreen;}
+
+}
+@keyframes test{
+    from{ background-color:red;}
+    to{ background-color:yellowgreen;}
+ 
+ }
+ .conteiner2{
+ 
+
+    width: 50%;
+    height: 300px;
+    /* border: 2px solid burlywood; */
+ }
+.box2{
+   
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    position: relative;
+    -webkit-animation-name: test;
+    -webkit-animation-duration: 4s;
+    animation-name: fahim;
+    animation-duration: 4s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+
+}
+@-webkit-keyframes fahim{
+   0%{background-color: darkblue; left: 0px; top:0px;}
+   25%{background-color: darkcyan;left: 575px; top:0px;}
+   50%{background-color: aquamarine;left: 575px; top:200px;}
+   75%{background-color: black;left: 0px; top:200px;}
+   100%{background-color: blueviolet;left: 0px; top:0px;}
+}
+@keyframes fahim{
+    0%{background-color: darkblue; left: 0px; top:0px;}
+    25%{background-color: darkcyan;left: 300px; top:0px;}
+    50%{background-color: aquamarine;left: 300px; top:200px;}
+    75%{background-color: black;left: 0px; top:200px;}
+    100%{background-color: blueviolet;left: 0px; top:0px;}
+ }
